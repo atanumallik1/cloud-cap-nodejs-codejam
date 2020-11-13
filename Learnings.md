@@ -9,7 +9,10 @@
 
 
 ### Installation
-
+- Check landscape readiness
+```
+npx check-sap-cloud-readiness -codejam-cap
+```
 
 ### npm Related
 - Check node version 
@@ -22,4 +25,9 @@ Read more at [config](https://docs.npmjs.com/cli/v6/using-npm/config) or [npmrc]
 npm config ls    
 npm config ls -l
 ```
+- Get info about a specific node package  :
+```
+npm info @sap/cds-dk
+```
+
 
