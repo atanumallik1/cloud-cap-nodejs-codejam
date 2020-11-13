@@ -9,10 +9,17 @@
 
 
 ### Installation
-- Check landscape readiness
+- Check landscape readiness 
 ```
 npx check-sap-cloud-readiness -codejam-cap
 ```
+
+install CDS development Kit 
+```
+npm install --global @sap/cds-dk
+```
+
+install vscode CDS plugin from the [marketplace](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds#overview)
 
 ### npm Related
 - Check node version 
